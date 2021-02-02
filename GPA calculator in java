@@ -1,0 +1,181 @@
+import java.util.Scanner;
+public class studentGPA{
+	public static void main(String args[]){
+	String grade = "";
+	String[] letters = {"A", "B", "C", "D", "F"};
+	// Creates strings above and the GPA values below
+	double [] grades = {5, 4, 3, 2, 0};
+	double credit 1;
+	double credit 2;
+	double credit 3;
+	double credit 4;
+	double credit 5;
+	double credit 6;
+	double credit 7;
+	double credit 8;
+	double credit 9;
+	double credit 10;
+	double gradeValue = 0;
+	// Creates 10 credits
+	double totPtsClass1 = 0;
+	double totPtsClass2 = 0;
+	double totPtsClass3 = 0;
+	double totPtsClass4 = 0;
+	double totPtsClass5 = 0;
+	double totPtsClass6 = 0;
+	double totPtsClass7 = 0;
+	double totPtsClass8 = 0;
+	double totPtsClass9 = 0;
+	double totPtsClass10 = 0;
+	double gpa;
+	// Points in Classes, GPA
+	System.out.printIn("Welcome to the UNIBEN GPA Calculator!");
+	String mesaage;
+
+	Scanner scan = new Scanner (System.in);
+	System.out.printIn("Enter your first name:");
+	message = scan.nextLine();
+	System.out.printIn("Enter your last name:");
+	message = scan.nextLine();
+	System.out.printIn("Enter your course");
+	message = scan.nextLine();
+	
+	Scanner console = new Scanner(System.in);
+
+	System.out.printIn("Please enter the number of credits of the class 1 (A number)");
+	Credit1 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 1 (Capital letters)");
+	grade = console.next();
+	
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass1 = gradeValue * Credit1;
+
+	System.out.printIn("Please enter the number of credits of the class 2 (A number)");
+	Credit2 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 2 (Capital letters)");
+	grade = console.next();
+	
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass2 = gradeValue * Credit2;
+
+	System.out.printIn("Please enter the number of credits of the class 3 (A number)");
+	Credit3 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 3 (Capital letters)");
+	grade = console.next();
+	
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass3 = gradeValue * Credit3;
+
+	System.out.printIn("Please enter your number of credits of the class 4 (A number)");
+	Credit4 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 4 (Capital letters)");
+	grade = console.next();
+	
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass4 = gradeValue * Credit4;
+
+	System.out.printIn("Please enter your number  of credits of the class 5 (A number)");
+	Credit5 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 5 (Capital letters)");
+	grade = console.next();
+
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass5 = gradeValue * Credit5;
+
+	System.out.printIn("Please enter your number of credits of the class 6 (A number)");
+	Credit6 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 6 (Capital letters)");
+	grade = console.next();
+
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue =2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass6 = gradeValue * Credit6;
+
+	System.out.printIn("Please enter your number of credits of the class 7 (A number)");
+	Credit7 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 7 (Capital letters)");
+	grade = console.next();
+	
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass7 = gradeValue * Credit7;
+
+	System.out.printIn("Please enter your number of credits of the class 8 (A number)");
+	Credit8 = console.nextDouble();
+	System.out.printIn("Please enter your grades for the class 8 (Capital letters)");
+	grade = console.next();
+
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass8 = gradeValue * Credit8;
+	
+	System.out.printIn("Please enter your number of credits of the class 9 (A number)");
+	Credit9 = console.nextDouble();
+	System.out.printIn("Please enter your grade for the class 9 (Capital letters)");
+	grade = console.next();
+
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue = 3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue =0;
+
+	totPtsClass9 = gradeValue * Credit9;
+
+	System.out.printIn("Please enter your number of credits of the class 10 (A number)");
+	Credit10 = console.nextDouble();
+	System.out.printIn("Please enter your grade for the class 10 (Capital letters)");
+	grade = console.next();
+
+	if (grade.equals ("A")) gradeValue = 5;
+	else if (grade.equals ("B")) gradeValue = 4;
+	else if (grade.equals ("C")) gradeValue =3;
+	else if (grade.equals ("D")) gradeValue = 2;
+	else if (grade.equals ("F")) gradeValue = 0;
+
+	totPtsClass10 = gradeValue * Credit10;
+
+	totPts = totPtsClass1+totPtsClass2+totPtsClass3+totPtsClass4+totPtsClass5+totPtsClass6+totPtsClass7+totPtsClass8+totPtsClass9+totPtsClass10;
+	totalCredits = credit1+credit2+credit3+credit4+credit5+credit6+credit7+credit8+credit9+credit10;
+	GPA = totPts / totalCredits;
+	
+	System.out.printf("Your GPA is: %.2f\n", +gpa);
+	}
+}
